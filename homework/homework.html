@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Homework</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>My First Html Form</h1>
+    <form action="">
+        <label for="fname">First Name</label><br>
+        <input type="text" id="fname" name="fname" required><br>
+        <label for="lname">Last Name</label><br>
+        <input type="text" id="lname" name="fname" required><br>
+        <label for="gmail">Enter Email</label><br>
+        <input type="gmail" id="gmail" name="gmail" required><br>
+        <input type="radio" id="js" name="fav_language">
+        <label for="js">Javascript</label><br><br>
+        <input type="radio" id="java" name="fav_language">
+        <label for="java">Java</label><br><br>
+        <input type="checkbox" id="english" name="language">
+        <label for="english">English</label><br><br>
+        <input type="checkbox" id="hindi" name="language">
+        <label for="hindi">Hindi</label><br><br>
+        <input type="submit" value="submit">
+    </form><br><br>
+    <div>
+        <table width="500px">
+            <thead>
+                <tr>
+                    <td>Emp Id</td>
+                    <td>Emp Name</td>
+                    <td>salary</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>001</td>
+                    <td>paul</td>
+                    <td>$2000</td>
+                </tr>
+                <tr>
+                    <td>002</td>
+                    <td>John</td>
+                    <td>$5000</td>
+                </tr>
+                <tr>
+                    <td>003</td>
+                    <td>Alex</td>
+                    <td>$6000</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2" style="text-align: center;">Total</td>
+                    <td>$13000</td>
+                </tr>
+            </tfoot>
+    </div>
+
+    </table><br><br>
+
+    <div>
+        <h1>Image Gallery</h1>
+        <iframe src="http://127.0.0.1:5501/my%20gallery/mygallery.html" title="My Gallery" frameborder="1" width="500px"
+            height="300px"></iframe>
+    </div><br><br>
+
+    <div>
+        <h1>Using Map</h1>
+        <img src="/homework/image.jpg" alt="Image Not Found" usemap="#plant" width="500px" height="300px">
+
+        <map name="plant">
+            <area shape="circle" coords="34,44,270,350" href="1.html" alt="">
+            <area shape="circle" coords="290,172,333,250" href="2.html" alt="">
+            <area shape="circle" coords="337,300,44,238" href="3.html" alt="">
+            <area shape="circle" coords="55,234,456,235," href="4.html" alt="">
+        </map>
+    </div><br><br>
+
+    <div>
+        <picture>
+            <source media="(min-width:800px)"
+                srcset="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg">
+            <source media="(min-width:600px)" srcset="https://th.bing.com/th/id/OIG.lVXjWwlHyIo4QdjnC1YE">
+            <img src="https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg?q=10&h=200"
+                alt="not found">
+            <figcaption>Changing Images</figcaption>
+        </picture><br><br>
+        <div>
+            <video src="https://youtu.be/s6fV5EQXal0?si=yr32B33v7LN_5-9J" controls>video file</video><br><br>
+            <audio src="" controls>audio file</audio>
+        </div>
+    </div>
+</body>
+</html>
